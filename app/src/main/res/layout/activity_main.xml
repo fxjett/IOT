@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IOT"
+        android:textSize="22sp"
+        android:layout_marginBottom="24dp" />
+
+    <Switch
+        android:id="@+id/swAuto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Automatic recording"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnPermissions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grant Permissions" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="When Automatic is ON, every call records." />
+</LinearLayout>
